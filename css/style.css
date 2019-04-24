@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i|Merriweather:300,300i,400,400i,700,700i');
+/* Base Typography Styles
+Credit to Skeleton.css
+Credit to Andrew Levinson
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.simple-flex {
+  display: flex;
+  justify-content: center;
+}
+.margin-top-huge {
+  margin-top: 250px
+}
+
+a {
+  text-decoration: none;
+  color: #ea9957;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px;
+  background: rgba(87,176,234,0);
+  color: rgba(87,176,234,1);
+  border-radius: 2px;
+  border: 3px solid rgba(87,176,234,1);
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(87,176,234,0.85);
+  color: rgba(255,255,255,1);
+}
+
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.small {
+  font-size: 1.4rem;
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+}
+
+.regular {
+  font-style: inherit;
+  font-weight: 400;
+}
+
+.bold {
+  font-style: inherit;
+  font-weight: bolder;
+}
+.boldest {
+  font-style: inherit;
+  font-weight: 700;
+}
+.italic {
+  font-weight: inherit;
+  font-style: italic;
+}
+.left {
+  padding-right: 36%;
+}
+.right {
+  padding-left: 36%;
+}
+.align-right {
+  text-align: right;
+}
+.hug-bottom {
+  margin-bottom: 1rem;
+}
+.unhug {
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+.unhug-top {
+  margin-top: 3.75rem;
+}
+.unhug-bottom {
+  margin-bottom: 3.75rem;
+}
+.unhug-bigtime {
+  margin-top: 40rem;
+}
+.note-top-unhug {
+  margin-top: 1rem;
+}
+
+
+html {
+  font-size: 62.5%;
+  /* font-size: 40.5%; */
+}
+
+body {
+  font-size: 1.6em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+  color: rgba(0,0,0,0.85);
+  background: rgba(235,235,235,1);
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  -moz-osx-font-smoothing: grayscale;
+}
+.sans {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+
+
+/* Typography
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: 900;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-top: 3.5rem;
+  margin-bottom: 0rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 3rem;
+}
+h5 {
+  font-size: 1.6rem;
+}
+h6 {
+  font-size: 1.35rem;
+}
+.subheadline {
+  font-size: 1.35rem;
+}
+p {
+  margin-top: 0;
+}
+
